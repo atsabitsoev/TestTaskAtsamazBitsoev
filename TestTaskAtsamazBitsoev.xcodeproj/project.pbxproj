@@ -79,10 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				5B1DF59A221838FC00FB0121 /* AppDelegate.swift */,
+				5B1DF5B42218567E00FB0121 /* Post.swift */,
 				5B1DF5BD221885DF00FB0121 /* PostVc */,
 				5B1DF5B82218758E00FB0121 /* DevExamVc */,
 				5B1DF5AC22183BCF00FB0121 /* AuthVc */,
-				5B1DF5B42218567E00FB0121 /* Post.swift */,
 				5B1DF59E221838FC00FB0121 /* Main.storyboard */,
 				5B1DF5A1221838FD00FB0121 /* Assets.xcassets */,
 				5B1DF5A3221838FD00FB0121 /* LaunchScreen.storyboard */,
@@ -223,6 +223,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAtsamazBitsoev/Pods-TestTaskAtsamazBitsoev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKMaskField/AKMaskField.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
@@ -233,6 +234,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKMaskField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
