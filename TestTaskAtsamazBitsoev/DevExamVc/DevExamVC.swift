@@ -15,7 +15,7 @@ class DevExamVC: UITableViewController {
     
     @IBOutlet weak var segControllSort: UISegmentedControl!
     
-    var posts = Authorization.standard.posts
+        var posts = ServerWork.standard.posts
     
 
     override func viewDidLoad() {
@@ -106,7 +106,7 @@ class DevExamVC: UITableViewController {
     // ОБНОВИТЬ ПОСТЫ
     func updatePosts() {
         
-        Authorization.standard.getPosts()
+        ServerWork.standard.getPosts()
         
     }
     
@@ -114,7 +114,7 @@ class DevExamVC: UITableViewController {
     // КОГДА ПОСТЫ ОБНОВЛЕНЫ
     @objc func postsUpdated() {
         
-        posts = Authorization.standard.posts
+        posts = ServerWork.standard.posts
         sortPosts()
         self.tableView.reloadData()
         

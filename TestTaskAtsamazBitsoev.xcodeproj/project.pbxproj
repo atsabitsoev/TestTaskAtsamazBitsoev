@@ -13,7 +13,7 @@
 		5B1DF5A5221838FD00FB0121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1DF5A3221838FD00FB0121 /* LaunchScreen.storyboard */; };
 		5B1DF5AE22183BFD00FB0121 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5AD22183BFD00FB0121 /* AuthVC.swift */; };
 		5B1DF5B122183C3500FB0121 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B022183C3500FB0121 /* KeyChain.swift */; };
-		5B1DF5B322183C4C00FB0121 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B222183C4C00FB0121 /* Authorization.swift */; };
+		5B1DF5B322183C4C00FB0121 /* ServerWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B222183C4C00FB0121 /* ServerWork.swift */; };
 		5B1DF5B52218567E00FB0121 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B42218567E00FB0121 /* Post.swift */; };
 		5B1DF5B72218653600FB0121 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B62218653600FB0121 /* AlertPresenter.swift */; };
 		5B1DF5BA221875B800FB0121 /* DevExamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DF5B9221875B800FB0121 /* DevExamVC.swift */; };
@@ -32,7 +32,7 @@
 		5B1DF5A6221838FD00FB0121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B1DF5AD22183BFD00FB0121 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		5B1DF5B022183C3500FB0121 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
-		5B1DF5B222183C4C00FB0121 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		5B1DF5B222183C4C00FB0121 /* ServerWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerWork.swift; sourceTree = "<group>"; };
 		5B1DF5B42218567E00FB0121 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5B1DF5B62218653600FB0121 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 		5B1DF5B9221875B800FB0121 /* DevExamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevExamVC.swift; sourceTree = "<group>"; };
@@ -80,6 +80,7 @@
 			children = (
 				5B1DF59A221838FC00FB0121 /* AppDelegate.swift */,
 				5B1DF5B42218567E00FB0121 /* Post.swift */,
+				5B1DF5B222183C4C00FB0121 /* ServerWork.swift */,
 				5B1DF5BD221885DF00FB0121 /* PostVc */,
 				5B1DF5B82218758E00FB0121 /* DevExamVc */,
 				5B1DF5AC22183BCF00FB0121 /* AuthVc */,
@@ -105,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				5B1DF5B022183C3500FB0121 /* KeyChain.swift */,
-				5B1DF5B222183C4C00FB0121 /* Authorization.swift */,
 			);
 			path = AuthModel;
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 				5B1DF5B122183C3500FB0121 /* KeyChain.swift in Sources */,
 				5B1DF5BA221875B800FB0121 /* DevExamVC.swift in Sources */,
 				5B1DF59B221838FC00FB0121 /* AppDelegate.swift in Sources */,
-				5B1DF5B322183C4C00FB0121 /* Authorization.swift in Sources */,
+				5B1DF5B322183C4C00FB0121 /* ServerWork.swift in Sources */,
 				5B1DF5B52218567E00FB0121 /* Post.swift in Sources */,
 				5B1DF5BF2218860B00FB0121 /* PostVC.swift in Sources */,
 				5B1DF5BC221878FB00FB0121 /* DevExamCell.swift in Sources */,

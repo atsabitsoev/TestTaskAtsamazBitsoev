@@ -202,7 +202,7 @@ class AuthVC: UIViewController {
         
         if let phone = tfPhoneNumber.text, let password = tfPassword.text {
             
-            Authorization.standard.authorizeUser(phone: decodeString(str: phone, deleteCode: false), password: password)
+            ServerWork.standard.authorizeUser(phone: decodeString(str: phone, deleteCode: false), password: password)
             
         }
 

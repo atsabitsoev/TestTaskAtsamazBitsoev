@@ -10,10 +10,10 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class Authorization {
+class ServerWork {
     
     // SINGLETON
-    static let standard = Authorization()
+    static let standard = ServerWork()
     private init() {}
     
     
