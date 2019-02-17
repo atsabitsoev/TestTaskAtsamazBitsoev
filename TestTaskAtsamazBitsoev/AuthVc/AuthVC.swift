@@ -70,9 +70,9 @@ class AuthVC: UIViewController {
                     self.tfPhoneNumber.placeholder = self.getCountryCode(from: self.tfPhoneNumber.maskExpression ?? "")
                     
                 }
-                self.setSavedUserDataToTextFields()
+                
         }
-        
+        self.setSavedUserDataToTextFields()
     }
     
     
@@ -203,7 +203,6 @@ class AuthVC: UIViewController {
         if let phone = tfPhoneNumber.text, let password = tfPassword.text {
             
             Authorization.standard.authorizeUser(phone: decodeString(str: phone, deleteCode: false), password: password)
-            print(phone)
             
         }
 
